@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+    background-image: url(görseller/arkaplan.jpg);
+}
+
+a{
+    color: white;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/*HeaderStart*/
+
+header{
+    height: 70px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.267);
+}
+header nav{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 110px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    transition: color .25s ease;
+    font-size: 17px;
+    transition: all .25s ease;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul li a:hover{
+    background-color:#000000;
+    border-radius: 56px;
+    padding: 7px 12px;
+    font-size: 16px;
+}
+
+nav .menu{
+    display: flex;
+    align-items: center;
+    column-gap: 38px;
+    margin: auto;
+}
+
+#bilet:hover{
+    background-color:#0ba2c0;
+}
+
+/* nav .menu .menu-button{
+    color: #0ba2c0;
+    text-decoration: none;
+    padding: 7px 12px;
+    border-radius: 56px;
+    transition: all .25s ease;
+    font-size: 20px;
+}
+
+nav .menu .menu-button:hover{
+    background-color: #000000;
+    color: white;
+}  */
+
+/*HeaderEnd*/
+
+/* Kutu */
+
+  .kutu{
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: auto;
+    border-radius: 800px;
+    margin-top: 20px
+}  
+
+/* Kutu */
+
+/* section */
+ 
+.content{
+    color: white;
+    height:calc(100vh - 120px);
+    padding-top: 230px;
+    font-size: 60px;
+    text-align: center;
+}
+
+.content p{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.content .link{
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.content .link a{
+    background-color: white;
+    padding: 22px;
+    width: 200px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 56px;
+    transition: all .25s ease-in;
+}
+
+.content .link a:hover{
+    background-color: #000000;
+    color: white;
+}
+
+/* section */
+
+/* responsive */
+    @media(max-width:846px){
+        .container{
+            width: 100%;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+
+        .menu ul{
+            column-gap: 20px;
+        }
+
+        .menu .menu-button{
+            display: none;
+        }
+    }
+/* responsive */
+

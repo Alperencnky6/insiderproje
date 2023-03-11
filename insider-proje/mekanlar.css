@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: cover;
+    background-color: #d6d5d5;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/*HeaderStart*/
+
+header{
+    height: 70px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.267);
+}
+header nav{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 110px;
+}
+
+nav ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: color .25s ease;
+    font-size: 20px;
+    transition: all .25s ease;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul li a:hover{
+    background-color:#000000;
+    border-radius: 56px;
+    padding: 7px 12px;
+    color:white;
+    font-size: 17px;
+}
+
+nav .menu{
+    display: flex;
+    align-items: center;
+    column-gap: 38px;
+    margin: auto;
+}
+
+#bilet:hover{
+    background-color:#0ba2c0;
+}
+
+/* nav .menu .menu-button{
+    color: #0ba2c0;
+    text-decoration: none;
+    padding: 7px 12px;
+    border-radius: 56px;
+    transition: all .25s ease;
+    font-size: 20px;
+}
+
+nav .menu .menu-button:hover{
+    background-color: #000000;
+    color: white;
+}  */
+
+/*HeaderEnd*/
+
+/* SectionStart */
+
+img{
+    width: 40%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.baslikmekanlar{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.267);
+    position: relative;
+    text-align: center;
+    top: 50px;    
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 35px;
+}
+
+.gorsel{
+    padding: 12px;
+    border-radius: 65px;
+    float: left;
+}
+
+.h2baslik{
+    padding: 15px;
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 35px;
+}
+
+.kutu{
+    margin-top: 8%;
+    height: 370px;
+    background-color: #494545;
+    border-radius: 65px;
+}
+
+.paragraf{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: white;
+}
+
+/* SectionEnd */
+
+/* FooterStart */
+
+.footer {
+    position:relative;
+    bottom: 0px;
+    right: 0;
+    left :0;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+    padding : 1rem;
+    color: white;
+    background : #000000;
+    font-size : 14px
+  }
+
+/* FooterEnd */
